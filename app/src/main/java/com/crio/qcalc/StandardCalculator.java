@@ -9,6 +9,7 @@ public class StandardCalculator {
 
     public void add(int num1, int num2) {
         result = num1+num2;
+        setResult(result);
     }
 
     private void setResult(int actResult) {
@@ -30,14 +31,17 @@ public class StandardCalculator {
 
     public void subtract(int num1, int num2) {
         result = num1-num2;
+        setResult(result);
     }
 
     public void multiply(int num1, int num2) {
         result = num1*num2;
+        setResult(result);
     }
 
     public void divide(int num1, int num2) {
         result = num1/num2;
+        setResult(result);
     }
 
 
